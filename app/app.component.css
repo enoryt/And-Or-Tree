@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+  
+}
+section {
+  width: 100%;
+  background-color: red;
+}

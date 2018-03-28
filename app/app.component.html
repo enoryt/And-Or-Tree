@@ -1,0 +1,7 @@
+
+<section>
+  <h1>Number of Nodes: {{num}} </h1>
+<tree-view *ngIf="r==1" (notify)="onNotifyClicked($event)" [treeData]="nodes" ></tree-view>
+<tree-view *ngIf="r==2" [treeData]="nodes2" ></tree-view>
+<tree-view *ngIf="r==3" [treeData]="nodes3" ></tree-view>
+</section>
